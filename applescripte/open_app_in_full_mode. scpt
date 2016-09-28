@@ -1,0 +1,19 @@
+-- Reference:
+-- http://apple.stackexchange.com/questions/58875/open-an-app-in-fullscreen-via-terminal
+tell application "Safari"
+    activate
+    tell application "System Events"
+        keystroke "f" using {control down, command down}
+    end tell
+end tell
+
+-- Attention:
+  -- How to run in bash:
+    -- /usr/bin/osascript -e 'tell application "Safari"' -e "activate" -e 'tell application "System Events"' -e 'keystroke "f" using {control down, command down}' -e "end tell" -e "end tell"
+  -- OR:
+    -- /usr/bin/osascript -e "tell application \"safari\"" 
+  -- -e "activate"
+  -- -e "tell application \"system events\""
+  -- -e "keystroke \"f\" using {control down, command down}"
+  -- -e "end tell"
+  -- -e "end tell"
