@@ -1,0 +1,21 @@
+[labels]
+Status/Verified = lightseagreen
+Status/WIP = lightseagreen
+Status/Block = lightseagreen
+Status/More dtail=lightseagreen
+Status/Invalid = lightseagreen
+Status/Duplicate = lightseagreen
+Status/Wontfix = lightseagreen
+Type/Bug = seashell
+Type/Feature = seashell
+Type/Refactor = seashell
+Type/Performance = seashell
+Type/Enhancement = seashell
+Priority/High = purple
+Priority/Medium = purple
+Priority/Low = purple
+
+[global]
+api=http://10.186.18.21/api/v4
+project=86
+private-token=XoKdxo4cVyT2FZWW
